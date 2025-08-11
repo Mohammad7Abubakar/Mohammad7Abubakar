@@ -1,6 +1,6 @@
 <p align="center">
   <!-- Optional banner (place a hero.png or hero.gif in /assets) -->
-   <img src="./assets/hero.png" alt="Mohammad Abubakar — Full-Stack Developer" /> 
+   <img src="./Github-landing (2).jpg" alt="Mohammad Abubakar — Full-Stack Developer" /> 
 </p>
 
 <h1 align="center">Hi, I'm Mohammad Abubakar 👋</h1>
