@@ -21,7 +21,7 @@
 ### About
 - Building production-ready web apps and APIs (.NET, Node, React/Next).
 - Interested in dashboards, auth, payments, and performance.
-- Currently polishing my React + Chakra UI portfolio theme.
+- Currently polishing my Next.js project - A drag and drop, portfolio builder
 
 ### Tech
 <p>
@@ -37,7 +37,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="28" alt="TailwindCSS"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chakraui/chakraui-original.svg" height="28" alt="Chakra UI"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" alt="Docker"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="28" alt="AWS"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="28" alt="Vercel"/>
 </p>
 
