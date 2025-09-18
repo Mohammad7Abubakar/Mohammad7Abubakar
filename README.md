@@ -21,7 +21,7 @@
 ### About
 - Building production-ready web apps and APIs (.NET, Node, React/Next).
 - Interested in dashboards, auth, payments, and performance.
-- Currently polishing my Next.js project - A drag and drop, portfolio builder
+- Currently polishing my Next.js project - A drag and drop, portfolio builder (website/web app builder).
 
 ### Tech
 <p>
