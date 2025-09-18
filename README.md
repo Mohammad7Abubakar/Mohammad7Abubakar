@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://portfolio-opal-psi-28.vercel.app/">Portfolio</a> •
   <a href="https://www.linkedin.com/in/mohammad-abubakar-099aa122a/">LinkedIn</a> •
-  <a href="mailto:your.email@example.com">Email</a>
+  <a href="mailto:moabubakar230@gmail.com">Email</a>
 </p>
 
 ---
@@ -34,7 +34,6 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="28" alt="PostgreSQL"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="28" alt="MongoDB"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg" height="28" alt="Prisma"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="28" alt="TailwindCSS"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/chakraui/chakraui-original.svg" height="28" alt="Chakra UI"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="28" alt="Docker"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" height="28" alt="Vercel"/>
@@ -54,5 +53,5 @@
   <img height="150" src="https://streak-stats.demolab.com?user=Mohammad7Abubakar&hide_longest_streak=true" />
 </p>
 
-<!-- Optional: profile views counter -->
-<!-- ![Profile views](https://komarev.com/ghpvc/?username=Mohammad7Abubakar&style=flat) -->
+ profile views counter 
+![Profile views](https://komarev.com/ghpvc/?username=Mohammad7Abubakar&style=flat) 
