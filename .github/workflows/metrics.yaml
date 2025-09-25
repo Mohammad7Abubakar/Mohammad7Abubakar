@@ -1,30 +1,48 @@
-name: GitHub Metrics
+name: GitHub Metrics (compact)
 on:
-  schedule: [{ cron: "30 0 * * *" }]    # once daily, 00:30 UTC
-  workflow_dispatch:                     # let you run it manually
+  schedule: [{ cron: "30 0 * * *" }]   # daily
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  metrics:
     runs-on: ubuntu-latest
     steps:
       - uses: lowlighter/metrics@latest
         with:
           # REQUIRED
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}   # PAT with: repo, read:org
           user: Mohammad7Abubakar
+          filename: metrics-compact.svg
           config_timezone: Asia/Karachi
-          filename: github-metrics.svg   
-
-          # Base sections
           template: classic
-          base: header, activity, community, repositories, metadata
 
-          # Popular plugins (toggle yes/no)
-          plugin_isocalendar: yes           # weekly commit calendar
-          plugin_languages: yes             # top languages
-          plugin_achievements: yes          # trophies/achievements
-          plugin_stargazers: no             # set yes to list stargazers
-          plugin_followup: no               # open/closed issues & PRs status
+          # keep base lean
+          base: header, repositories
+          repositories_affiliations: owner, collaborator, organization_member
+
+          # languages (compact)
+          plugin_languages: yes
+          plugin_languages_limit: 6
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+          plugin_languages_other: true
+          plugin_languages_indepth: false
+
+          # contributions calendar (last 12 months)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # show your PR/issue activity summary
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_followup_sections: user
+
+          # turn OFF the noisy stuff
+          plugin_achievements: no
+          plugin_stargazers: no
+          plugin_followers: no
+          plugin_habits: no
+          plugin_activity: no
