@@ -53,5 +53,8 @@
   <img height="150" src="https://streak-stats.demolab.com?user=Mohammad7Abubakar&hide_longest_streak=true" />
 </p>
 
-![GitHub Metrics](./github-metrics.svg)
+<p align="center">
+  <img src="./metrics-compact.svg" alt="GitHub Metrics" width="820" />
+</p>
+
 
