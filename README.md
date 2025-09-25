@@ -53,5 +53,5 @@
   <img height="150" src="https://streak-stats.demolab.com?user=Mohammad7Abubakar&hide_longest_streak=true" />
 </p>
 
- profile views counter 
-![Profile views](https://komarev.com/ghpvc/?username=Mohammad7Abubakar&style=flat) 
+![GitHub Metrics](./github-metrics.svg)
+
