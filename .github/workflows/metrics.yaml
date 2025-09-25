@@ -26,23 +26,26 @@ jobs:
           # languages (compact)
           plugin_languages: yes
           plugin_languages_limit: 6
-          plugin_languages_sections: most-used
           plugin_languages_details: percentage
-          plugin_languages_other: true
-          plugin_languages_indepth: false
-
-          # contributions calendar (last 12 months)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-          # show your PR/issue activity summary
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: user
+          plugin_achievements: yes
 
           # turn OFF the noisy stuff
-          plugin_achievements: no
           plugin_stargazers: no
           plugin_followers: no
           plugin_habits: no
           plugin_activity: no
+
+          extras_css: |
+            /* Title / section headings */
+            .heading, .title, h1, h2 { fill:#64ffda !important; color:#64ffda !important; }
+            /* Body text */
+            text, .field, .label, .value { fill:#e5e7eb !important; color:#e5e7eb !important; }
+            /* Hide bits you don't want to see */
+            .sponsors, .packages, .releases, .watchers { display:none !important; }
+            /* Optional: tighter spacing */
+            .row { margin-top: 6px !important; margin-bottom: 6px !important; }
