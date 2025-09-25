@@ -1,0 +1,30 @@
+name: GitHub Metrics
+on:
+  schedule: [{ cron: "30 0 * * *" }]    # once daily, 00:30 UTC
+  workflow_dispatch:                     # let you run it manually
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # REQUIRED
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: Mohammad7Abubakar
+          config_timezone: Asia/Karachi
+          filename: github-metrics.svg   
+
+          # Base sections
+          template: classic
+          base: header, activity, community, repositories, metadata
+
+          # Popular plugins (toggle yes/no)
+          plugin_isocalendar: yes           # weekly commit calendar
+          plugin_languages: yes             # top languages
+          plugin_achievements: yes          # trophies/achievements
+          plugin_stargazers: no             # set yes to list stargazers
+          plugin_followup: no               # open/closed issues & PRs status
