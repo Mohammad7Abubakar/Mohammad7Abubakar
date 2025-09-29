@@ -1,5 +1,4 @@
 <p align="center">
-  <!-- Optional banner (place a hero.png or hero.gif in /assets) -->
    <img src="./Github-landing (2).jpg" alt="Mohammad Abubakar — Full-Stack Developer" /> 
 </p>
 
