@@ -32,9 +32,9 @@ jobs:
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_followup_sections: user
-          plugin_achievements: yes
 
           # turn OFF the noisy stuff
+          plugin_achievements: no
           plugin_stargazers: no
           plugin_followers: no
           plugin_habits: no
